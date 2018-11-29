@@ -30,7 +30,7 @@ credentials:
                   privateKey: ${agent_private_key}
 jobs:
     - url: https://raw.githubusercontent.com/triologygmbh/jenkinsfile/1-declarative/Jenkinsfile
-    - url: https://raw.githubusercontent.com/triologygmbh/jenkinsfile/7-declarative/Jenkinsfile
+    - url: https://raw.githubusercontent.com/triologygmbh/jenkinsfile/1-declarative/Jenkinsfile
 
 tool:
   git:
