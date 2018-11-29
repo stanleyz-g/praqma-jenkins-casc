@@ -12,12 +12,8 @@ jenkins:
        - id: ${adminuser:-demoAdmin}
          password: ${adminpw:-passw0rd}
   authorizationStrategy:
-    globalMatrix:
-      grantedPermissions:
-        - "Overall/Read:anonymous"
-        - "Job/Read:anonymous"
-        - "View/Read:anonymous"
-        - "Overall/Administer:authenticated"
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
   crumbIssuer: "standard"
 credentials:
   system:
