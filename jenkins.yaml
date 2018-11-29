@@ -11,6 +11,13 @@ jenkins:
       users:
        - id: ${adminuser:-demoAdmin}
          password: ${adminpw:-passw0rd}
+  authorizationStrategy:
+    globalMatrix:
+      grantedPermissions:
+        - "Overall/Read:anonymous"
+        - "Job/Read:anonymous"
+        - "View/Read:anonymous"
+        - "Overall/Administer:authenticated"
   crumbIssuer: "standard"
 credentials:
   system:
@@ -46,4 +53,3 @@ plugins:
    job-dsl: 1.68
    workflow-aggregator: 2.5
    timestamper: 1.8.9
-
