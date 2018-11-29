@@ -58,3 +58,4 @@ plugins:
    matrix-project: 1.7.1
    analysis-core: 1.94
    structs: 1.7
+	 antisamy-markup-formatter: 1.5
