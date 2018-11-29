@@ -47,6 +47,6 @@ plugins:
    warnings: 4.66
    matrix-auth: 2.3
    job-dsl: 1.68
-   workflow-aggregator: 2.5
+#    workflow-aggregator: 2.5
    timestamper: 1.8.9
-   workflow-scm-step: 2.7
+#    workflow-scm-step: 2.7
