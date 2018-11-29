@@ -39,7 +39,9 @@ credentials:
                   privateKey: ${agent_private_key}
 
 jobs:
-    - url: https://raw.githubusercontent.com/jenkinsci/pipeline-examples/master/jenkinsfile-examples/nodejs-build-test-deploy-docker-notify/Jenkinsfile
+#     - url: https://raw.githubusercontent.com/jenkinsci/pipeline-examples/master/jenkinsfile-examples/nodejs-build-test-deploy-docker-notify/Jenkinsfile
+    - url: https://raw.githubusercontent.com/triologygmbh/jenkinsfile/1-declarative/Jenkinsfile
+    - url: https://raw.githubusercontent.com/triologygmbh/jenkinsfile/7-declarative/Jenkinsfile
 #   - url: https://raw.githubusercontent.com/Praqma/job-dsl-collection/master/configuration-as-code-dsl/pipeline.dsl #casc
 #   - url: https://raw.githubusercontent.com/Praqma/memory-map-plugin/master/jenkins-pipeline/pipeline.groovy #memory map
 #   - url: https://raw.githubusercontent.com/Praqma/codesonar-plugin/master/jenkins-pipeline/pipeline.groovy #codesonar
