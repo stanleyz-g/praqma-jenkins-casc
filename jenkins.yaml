@@ -53,3 +53,4 @@ plugins:
    job-dsl: 1.68
    workflow-aggregator: 2.5
    timestamper: 1.8.9
+   workflow-scm-step: 2.7
